@@ -17,6 +17,7 @@ public class ProgramStarter {
 		GPS siemensGps = new GPS();
 		siemensGps.setCoordinate(35.23423f, 27.23423f);
 		
+		
 		bmw.changeGps(siemensGps);
 		
 		bmw.startEngine();
