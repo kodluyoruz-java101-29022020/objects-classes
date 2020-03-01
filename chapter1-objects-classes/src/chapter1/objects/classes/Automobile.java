@@ -44,6 +44,16 @@ public class Automobile {
 		this.currentGear = gear;
 	}
 	
+	public byte incrementGear() {
+		this.currentGear++;
+		return this.currentGear;
+	}
+	
+	public byte decrementGear() {
+		this.currentGear--;
+		return this.currentGear;
+	}
+	
 	public byte getCurrentGear() {
 		return this.currentGear;
 	}
